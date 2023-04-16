@@ -3,7 +3,6 @@ import initializeApp from "@app/init";
 import { lazy, useEffect } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { themeChange } from "theme-change";
-import "./App.css";
 
 // Importing pages
 const Layout = lazy(() => import("@containers/Layout"));
